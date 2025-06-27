@@ -1,8 +1,10 @@
+import "../css/Favourites.css";
+
 function Favourites() {
     return (
         <div className="favourites-empty">
             <h2>No Favourite Movies Yet</h2>
-            <p>Add some movies to your favourites list to see them here.</p>
+            <p>Click on the ❤️ button to add a movie to your favourites.</p>
         </div>
     )
 }
