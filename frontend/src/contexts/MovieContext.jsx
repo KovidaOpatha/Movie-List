@@ -36,7 +36,7 @@ export const MovieProvider = ({children}) => {
         isFavorite
     };
 
-    return <MovieContext.Provide value={value}>
+    return <MovieContext.Provider value={value}>
         {children}
-    </MovieContext.Provide>
+    </MovieContext.Provider>
 }
